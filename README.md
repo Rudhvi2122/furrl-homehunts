@@ -1,7 +1,10 @@
 
 Setup:
+
 clone the repository
+
 npm install
+
 npm start
 
 Navbar
