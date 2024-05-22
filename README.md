@@ -7,6 +7,9 @@ npm install
 
 npm start
 
+
+Sections In The Assignment
+
 Navbar
 
 FilterSection
