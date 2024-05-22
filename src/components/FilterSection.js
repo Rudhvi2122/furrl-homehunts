@@ -1,10 +1,12 @@
 import { BiSortAlt2 } from "react-icons/bi";
 import { CiFilter } from "react-icons/ci";
 
+import "../styles/FilterSection.css"
+
 const FilterSection = props => {
     const{totalProducts} = props
   return (
-    <div>
+    <div className="">
       <div className="vibe-page-filter-section">
         <div className="total_products_container">
           <div className="total_products_container_child">
