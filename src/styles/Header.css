@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .navbarContainer {
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    height: 8vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+  }
+  
+  .innernavContainer {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 65%;
+  }
+  
+  .wishlisticon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .carticon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .navbarHeader {
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+  }
+  .wishlistAndCartIconContainer {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .imagelogo {
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+  }
+  @media (min-width: 996px) {
+    .navbarContainer {
+      width: 99vw;
+    }
+  }
+  .linkroute {
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
